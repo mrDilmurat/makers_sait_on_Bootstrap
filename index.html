@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Makers</title>
+   <link rel="stylesheet" href="./css/style.css" />
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+   <!-- navbar start -->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 fixed-top">
+      <div class="container">
+         <a class="navbar-brand" href="index.html">
+            <img src="./img/logo1.jpg" alt="" style="width: 100px;" class="img-fluid">
+         </a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+               <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#home">Home</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#courses">Courses</a>
+               </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                     data-bs-toggle="dropdown" aria-expanded="false">
+                     Dropdown
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                     <li><a class="dropdown-item" href="#">Action</a></li>
+                     <li><a class="dropdown-item" href="#">Another action</a></li>
+                     <li>
+                        <hr class="dropdown-divider" />
+                     </li>
+                     <li>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                     </li>
+                  </ul>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#about">About Us</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#partners">Our Partners</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#questions">Questions</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#instructions">Instructions</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#" id="registerUser-modal" data-bs-toggle="modal"
+                     data-bs-target="#staticBackdrop">Register</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#" id="loginUser-modal" data-bs-toggle="modal"
+                     data-bs-target="#staticBackdrop">Login</a>
+               </li>
+            </ul>
+
+         </div>
+      </div>
+   </nav>
+   <!-- navbar end -->
+
+   <!-- hero section start -->
+   <section class="bg-dark text-light p-5 text-center text-sm-start" id="home">
+      <div class="container py-5">
+
+         <div class="save py-3">
+            <a href="#" style="color: aliceblue; font-size: 25px; text-decoration: none;">Save 25%</a>
+            <marquee class="ticker__text" style="font-size: 50px; color: #58a6f4;">Запишись и получи <span
+                  class="text-warning font-weight-bold mb-4 display-3">скидку% на 5000 сом</span></marquee>
+         </div>
+
+         <div class="d-sm-flex align-items-center justify-content-lg-between py-5">
+            <div>
+               <h1>БЕСПЛАТНЫЙ <span class="text-warning">ПРОБНЫЙ УРОК ⚡️</span></h1>
+               <h3 class="my-4">Bootcamp JavaScript, Python</h3>
+               <p class="lead my-4">Ты давно планируешь начать обучение и стать программистом, но не знаешь с чего
+                  начать?
+
+                  НАЧНИ С НАМИ❣️
+               </p>
+               <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Contact Us</a>
+            </div>
+            <a href="#">
+               <img
+                  src="./img/img05.png"
+                  alt="" class="img-fluid" width="1000">
+            </a>
+         </div>
+      </div>
+   </section>
+   <!-- hero section end -->
+
+   <!-- curses section start -->
+   <section class="bg-primary text-light p-5">
+      <div class="container py-5">
+         <div class="d-md-flex justify-content-between align-items-center">
+            <h3 class="mb-3 md-md-0">Sign for our curses Bootcamp</h3>
+            <div class="input-group news-input">
+               <input type="text" class="form-control" placeholder="Enter E-mail" name="">
+               <button class="btn btn-dark btn-lg">Discover</button>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- curses section end -->
+
+   <!-- services section start -->
+   <section class="p-5" id="courses">
+      <div class="container py-5">
+         <h2 class="text-center mb-5">Our Courses</h2>
+         <div class="row text-center g-4">
+            <div class="col-md">
+               <div class="card bg-dark text-light p-5">
+                  <div class="card-body text-center">
+                     <div class="h1 mb-3">
+                        <img src="https://static.javatpoint.com/images/javascript/javascript_logo.png" alt=""
+                           style="width: 70px; height: 70px;">
+                        <!--<i class="bi bi-laptop"></i>-->
+                     </div>
+                     <h3 class="card-title mb-3">
+                        JavaScript
+                     </h3>
+                     <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard
+                     </p>
+                     <a href="#" class="btn btn-primary">
+                        Read More
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md">
+               <div class="card bg-dark text-light p-5">
+                  <div class="card-body text-center">
+                     <div class="h1 mb-3">
+                        <img
+                           src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/800px-Python.svg.png"
+                           alt="" style="width: 70px; height: 70px;">
+                        <!--<i class="bi bi-laptop"></i>-->
+                     </div>
+                     <h3 class="card-title mb-3">
+                        Python
+                     </h3>
+                     <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has
+                        been the industry's standard
+                     </p>
+                     <a href="#" class="btn btn-primary">
+                        Read More
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md">
+               <div class="card bg-dark text-light p-5">
+                  <div class="card-body text-center">
+                     <div class="h1 mb-3">
+                        <img src="https://sidat.net/wp-content/uploads/2020/09/mobile-app-ux-ui-basics.jpg" alt=""
+                           style="width: 70px; height: 70px;">
+                        <!--<i class="bi bi-laptop"></i>-->
+                     </div>
+                     <h3 class="card-title mb-3">
+                        UI / UX
+                     </h3>
+                     <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has
+                        been the industry's standard
+                     </p>
+                     <a href="#" class="btn btn-primary">
+                        Read More
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- services section end -->
+
+   <!-- about section start -->
+   <section class="p-5" id="about">
+      <div class="container py-5">
+         <h2 class="text-center mb-5">About Us</h2>
+         <div class="row d-md-flex justify-content-between align-items-center">
+            <div class="col-md">
+               <a href="#">
+                  <img src="./img/img.it.jpg" alt="" class="img-fluid" style="width: 400px; height: 620px;">
+               </a>
+            </div>
+            <div class="col-md p-5">
+               <h2 class="py-5">Обучение программированию Бишкек</h2>
+               <p>💡ИНКУБАТОР #1 в ЦА
+                  💻За 4 года подготовили 1150+ программистов
+                  💸для трудоустройства в 35+ компаний
+                  🌗Дневное/вечернее обучение
+                  📃Сертификация выпускников</p>
+
+               <p class="py-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, rerum excepturi. Numquam
+                  magni eligendi dolor enim ea libero veniam repudiandae non amet quo, modi quod voluptatem officia ab
+                  suscipit sapiente?
+               </p>
+               <a href="https://www.instagram.com/makerskg" class="btn btn-primary mt-3"><i
+                     class="bi bi-arrow-right"></i> Read more</a>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- about section end -->
+
+   <!-- learn section start -->
+   <section class="bg-dark text-light p-5" id="learn">
+      <div class="container py-5">
+         <h2 class="text-center mb-5">What will you Learn?</h2>
+         <div class="row align-items-center justify-content-between">
+            <div class="col-md p-5">
+               <h2>makerskg
+                  КАК СТАТЬ УСПЕШНЫМ FRONT-END РАЗРАБОТЧИКОМ❓</h2>
+
+               <p>От интенсива до стажировочной программы, все это мы собрали на нашем курсе INCUBATOR (Bootcamp) 💥</p>
+               <p>Ведь это:
+                  🧑‍💻 680+ часов обучения, с упором на практику;
+                  👥 Обучает не один, а целая команда из действующих разработчиков;
+                  😍 Освоение новой профессии за 4 месяца, вместо 1 ГОДА;</p>
+
+               <p>СКОРЕЕ ЗАПИСЫВАЙСЯ И СТАНЬ ПРОГРАММИСТОМ ЗА КОРОТКИЙ СРОК ⚡️</p>
+
+               <a href="https://www.instagram.com/makerskg" class="btn btn-light mt-3"><i class="bi bi-arrow-right"></i>
+                  Read
+                  more</a>
+            </div>
+            <div class="col-md">
+               <a href="#">
+                  <img src="./img/img6.jpg" alt="" class="img-fluid" style="width: 450px; height: 500px;">
+               </a>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- learn section end -->
+
+   <!-- our partners start -->
+
+   <section class="" style="background-color:  #cccccc;" id="partners">
+      <div class="container">
+         <h1 class="text-center py-5">Our Partners</h1>
+         <ul class="list__partners">
+            <li>
+               <div class="my-md-4">
+                  <h3>TSUM</h3>
+                  <img
+                     src="https://tadviser.ru/images/thumb/7/7f/%D0%A6%D1%83%D0%BC-1.jpg/840px-%D0%A6%D1%83%D0%BC-1.jpg"
+                     alt="" width="250" height="150">
+               </div>
+               <p class="partners__info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit cum at
+                  recusandae
+                  possimus aperiam mollitia.</p>
+            </li>
+            <li>
+               <div class="my-md-4">
+                  <h3>MEGA COM</h3>
+                  <img
+                     src="https://economist.kg/wp-content/uploads/2022/12/Zaglavnoe-foto-SB-1-1.png"
+                     alt="" width="250" height="150">
+               </div>
+               <p class="partners__info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit cum at
+                  recusandae
+                  possimus aperiam mollitia.</p>
+            </li>
+            <li>
+               <div class="my-md-4">
+                  <h3>Avangard</h3>
+                  <img
+                     src="https://www.akchabar.kg/media/realty/25.jpg"
+                     alt="" width="250" height="150">
+               </div>
+               <p class="partners__info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit cum at
+                  recusandae
+                  possimus aperiam mollitia.</p>
+            </li>
+         </ul>
+      </div>
+      <div class="slider">
+         <div class="slide-track-1">
+            <div class="slide">
+               <img
+                  src="https://cci.kg/images/%D1%88%D0%BE%D1%80%D0%BE_%D0%B6%D0%B8%D0%BF%D0%B5%D0%B3.jpg"
+                  alt="" width="100" height="80" loading="lazy">
+            </div>
+            <div class="slide">
+               <img
+                  src="https://www.akchabar.kg/media/news/e5fdb985-0739-4498-8918-b24cb78ff76d.jpg"
+                  alt="" width="100" height="80" loading="lazy">
+            </div>
+
+            <div class="slide">
+               <img
+                  src="https://24.kg/thumbnails/abff4/73e68/191130_w750_h_r.JPG"
+                  alt="" width="100" height="80" loading="lazy">
+            </div>
+            <div class="slide">
+               <img src="https://data.kaktus.media/image/big/2020-08-03_12-40-05_805554.jpg"
+                  alt="" width="100" height="80" loading="lazy">
+            </div>
+            <div class="slide">
+               <img
+                  src="https://24.kg/thumbnails/4284d/6ecaf/505393801_w750_h_r.png"
+                  alt="" width="100" height="80" loading="lazy">
+            </div>
+            <div class="slide">
+               <img
+                  src="https://storage.googleapis.com/bd-kg-02/developer_image/logo/555.jpg"
+                  alt="" width="100" height="100" loading="lazy">
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- our partners end -->
+
+   <!-- F&Q section start -->
+   <section class="p-5" id="questions">
+      <div class="container py-5">
+         <h2 class="text-center mb-4">Frequent Asked Questions</h2>
+
+         <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                     aria-expanded="true" aria-controls="collapseOne">
+                     Our exact location ?
+                  </button>
+               </h2>
+               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     This is the first item's accordion body. It is shown by default, until the collapse plugin
+                     adds the appropriate classes that we use to style each element. These classes control the overall
+                     appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                     custom
+                     CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                     within the though the transition does limit overflow.
+                  </div>
+               </div>
+            </div>
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                     How much does it cost to attend ?
+                  </button>
+               </h2>
+               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     It is hidden by default, until the collapse
+                     plugin adds the appropriate classes that we use to style each element. These classes control the
+                     overall
+                     appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                     custom
+                     CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                     within the though the transition does limit overflow.
+                  </div>
+               </div>
+            </div>
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                     How do I sign up ?
+                  </button>
+               </h2>
+               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     It is hidden by default, until the collapse plugin
+                     adds the appropriate classes that we use to style each element. These classes control the overall
+                     appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                     custom
+                     CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                     within the though the transition does limit overflow.
+                  </div>
+               </div>
+            </div>
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                     Do tou help me find a job ?
+                  </button>
+               </h2>
+               <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     It is hidden by default, until the collapse plugin
+                     adds the appropriate classes that we use to style each element. These classes control the overall
+                     appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                     custom
+                     CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                     within the though the transition does limit overflow.
+                  </div>
+               </div>
+            </div>
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                     Were can I get some ?
+                  </button>
+               </h2>
+               <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     It is hidden by default, until the collapse plugin
+                     adds the appropriate classes that we use to style each element. These classes control the overall
+                     appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                     custom
+                     CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                     within the though the transition does limit overflow.
+                  </div>
+               </div>
+            </div>
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingSix">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                     Where does it come from ?
+                  </button>
+               </h2>
+               <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     It is hidden by default, until the collapse plugin
+                     adds the appropriate classes that we use to style each element. These classes control the overall
+                     appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                     custom
+                     CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                     within the
+                     though the transition does limit overflow.
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- F&Q section end -->
+
+   <!-- instruction section start -->
+   <section class="p-5 bg-primary" id="instructions">
+      <div class="container py-5">
+         <h2 class="text-center text-white">Our Instruction</h2>
+         <p class="lead text-center text-white mb-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nobis, minus aperiam assumenda at ipsa totam.
+         <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+               <div class="card bg-light">
+                  <div class="card-body text-center p-3">
+                     <img src="./img/img1.jpg" alt="" class="rounded-circle mb-3" style="width: 120px; height: 120px;">
+                     <h3>Alex</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna
+                        aliqua.</p>
+                     <a href="#"><i class="bi bi-facebook text-dark mx-1 lead"></i></a>
+                     <a href="#"><i class="bi bi-twitter text-dark mx-1 lead"></i></a>
+                     <a href="#"><i class="bi bi-linkedin text-dark mx-1 lead"></i></a>
+                     <a href="#"><i class="bi bi-instagram text-dark mx-1 lead"></i></a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+               <div class="card bg-light">
+                  <div class="card-body text-center p-3">
+                     <img src="./img/img2.jpg" alt="" class="rounded-circle mb-3" style="width: 120px; height: 120px;">
+                     <h3>Kani</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et
+                        dolore magna
+                        aliqua.</p>
+                     <a href="#"><i class="bi bi-facebook text-dark mx-1 lead"></i></a>
+                     <a href="#"><i class="bi bi-twitter text-dark mx-1 lead"></i></a>
+                     <a href="#"><i class="bi bi-linkedin text-dark mx-1 lead"></i></a>
+                     <a href="#"><i class="bi bi-instagram text-dark mx-1 lead"></i></a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+               <div class="card bg-light">
+                  <div class="card-body text-center p-3">
+                     <img src="./img/img3.jpg" alt="" class="rounded-circle mb-3" style="width: 120px; height: 120px;">
+                     <h3>Sultan</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et
+                        dolore magna
+                        aliqua.</p>
+                     <a href="#"><i class="bi bi-facebook text-dark mx-1 lead"></i></a>
+                     <a href="#"><i class="bi bi-twitter text-dark mx-1 lead"></i></a>
+                     <a href="#"><i class="bi bi-linkedin text-dark mx-1 lead"></i></a>
+                     <a href="#"><i class="bi bi-instagram text-dark mx-1 lead"></i></a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+               <div class="card bg-light">
+                  <div class="card-body text-center p-3">
+                     <img src="./img/img4.jpg" alt="" class="rounded-circle mb-3" style="width: 120px; height: 120px;">
+                     <h3>Shabtan</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et
+                        dolore magna
+                        aliqua.</p>
+                     <a href="#"><i class="bi bi-facebook text-dark mx-1 lead"></i></a>
+                     <a href="#"><i class="bi bi-twitter text-dark mx-1 lead"></i></a>
+                     <a href="#"><i class="bi bi-linkedin text-dark mx-1 lead"></i></a>
+                     <a href="#"><i class="bi bi-instagram text-dark mx-1 lead"></i></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- instruction section end -->
+
+   <!-- footer section start -->
+   <footer id="contact" class="page-footer p-5 text-md-left">
+      <div class="container py-5">
+         <div class="row g-4">
+            <div class="col-lg-3 col-md-6">
+               <h5 class="font-weight-bold mb-4 display-4">
+                  Makers
+               </h5>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut molestiae iusto distinctio ullam aperiam!
+                  Molestiae, dolor iste rem voluptatum ab temporibus error, expedita assumenda, totam officia eligendi
+                  officiis earum quisquam!</p>
+               <a href="#"><i class="bi bi-facebook text-dark mx-1 lead"></i></a>
+               <a href="#"><i class="bi bi-twitter text-dark mx-1 lead"></i></a>
+               <a href="#"><i class="bi bi-linkedin text-dark mx-1 lead"></i></a>
+               <a href="#"><i class="bi bi-instagram text-dark mx-1 lead"></i></a>
+            </div>
+            <div class="col-lg-2 xol-md-2 mx-auto">
+               <h5 class="text-uppercase font-weight-bold mb-4">Our Courses</h5>
+               <ul class="list-unstyled">
+                  <li class="mb-1"><a href="#">Java разработка</a></li>
+                  <li class="mb-1"><a href="#">JavaScript разработка</a></li>
+                  <li class="mb-1"><a href="#">UI/UX Дизайн</a></li>
+                  <li class="mb-1"><a href="#">Python азработка</a></li>
+                  <li class="mb-1"><a href="#">Тестирование ПО</a></li>
+                  <li class="mb-1"><a href="#">E-commerce</a></li>
+               </ul>
+            </div>
+            <div class="col-lg-2 xol-md-2 mx-auto">
+               <h5 class="text-uppercase font-weight-bold mb-4">Page Links</h5>
+               <ul class="list-styled">
+                  <li class="mb-1"><a href="#">Home</a></li>
+                  <li class="mb-1"><a href="#">About</a></li>
+                  <li class="mb-1"><a href="#">Services</a></li>
+                  <li class="mb-1"><a href="#">Portfolio</a></li>
+                  <li class="mb-1"><a href="#">Pages</a></li>
+                  <li class="mb-1"><a href="#">Contact</a></li>
+               </ul>
+            </div>
+            <div class="col-lg-3 col-xs-12 location">
+               <h5 class="text-uppercase font-weight-bold mb-4">Location</h5>
+               <p class="d-flex">
+                  <i class="bi bi-geo-alt text-primary mx-2 lead"></i>
+                  📍Адрес: Табышалиева, 29
+               </p>
+               <p class="d-flex">
+                  <i class="bi bi-telephone-forward-fill text-primary mx-2 lead"></i>
+                  +996501619690 (w/a)
+                  +996551619690
+               </p>
+               <p class="d-flex">
+                  <i class="bi bi-envelope-at-fill text-primary mx-2 lead"></i>
+                  makers.kg@gmail.com
+               </p>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <!-- footer section end -->
+
+   <!-- footer section bootm start -->
+   <footer class="p-3 bg-dark text-white text-center position-relative">
+      <div class="container">
+         <p class="mb-0">
+            Copyright &copy; 2022 Makers
+         </p>
+         <a href="#" class="position-absolute bottom-0 end-0 p-5">
+            <i class="bi bi-arrow-up-circle h1"></i>
+         </a>
+      </div>
+   </footer>
+   <!-- footer section bootm end -->
+
+
+   <!-- Modal start -->
+   <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+      tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+         <div class="modal-content">
+            <div class="modal-header">
+               <h5 class="modal-title" id="exampleModalToggleLabel">Contact to Me</h5>
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+               <p>Fill Form and we will get back to you.</p>
+
+               <form>
+                  <div class="mb-3">
+                     <label for="first-name" class="col-form-label">
+                        First Name
+                     </label>
+                     <input type="text" class="form-control" id="name" name="">
+                  </div>
+                  <div class="mb-3">
+                     <label for="first-name" class="col-form-label">
+                        Last Name
+                     </label>
+                     <input type="text" class="form-control" id="first_name" name="">
+                  </div>
+                  <div class="mb-3">
+                     <label for="first-name" class="col-form-label">
+                        Email Id
+                     </label>
+                     <input type="email" class="form-control" id="email" name="">
+                  </div>
+                  <div class="mb-3">
+                     <label for="first-name" class="col-form-label">
+                        Mob No
+                     </label>
+                     <input type="text" class="form-control" id="mob_no" name="">
+                  </div>
+               </form>
+            </div>
+            <div class="modal-footer">
+               <button class="btn btn-primary" data-bs-toggle="modal" data-bs-dismiss="modal">Close</button>
+               <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+      tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+         <div class="modal-content">
+            <div class="modal-header">
+               <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+               Hide this modal and show the first with the button below.
+            </div>
+            <div class="modal-footer">
+               <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"
+                  data-bs-dismiss="modal">Back to first</button>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- Modal ebd -->
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
